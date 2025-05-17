@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    background-color: #fffccf;
+    margin: 0;
+    padding: 0;
+}
+
+.novosti img {
+    width: 250px;
+    height: 150px;
+    border: 5px solid black;
+}
+
+.novosti p {
+    width: 250px;
+    text-align: center;
+}
+
+.novosti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 865px;
+}
+
+h1 {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+p {
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+}
+
+header img {
+    margin: 0;
+    object-fit: contain;
+}
+
+header {
+    background-color: #D1EDF2;
+    display: flex;
+    justify-content: flex-start;
+    height: 120px;
+}
+
+.mainimg {
+
+    position: relative;
+    top: 15px;
+}
+
+.mainimg img {
+    width: 250px;
+    height: 150px;
+}
+
+main {
+    padding: 10px;
+}
+
+.h1_news {
+    text-align: center;
+
+}
+
+.mainp {
+    float: left;
+    width: 50%;
+    height: 150px;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.news {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+   background-color: #D1EDF2;
+    display: flex;
+    justify-content: flex-start;
+}
+
+a {
+   font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex; 
+    color: black;
+}
